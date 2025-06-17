@@ -1,0 +1,13 @@
+prefix=E:/Samay/MachineLearningProject/end_to_end/venv/Library
+exec_prefix=E:/Samay/MachineLearningProject/end_to_end/venv/Library
+libdir=E:/Samay/MachineLearningProject/end_to_end/venv/Library/lib
+sharedlibdir=E:/Samay/MachineLearningProject/end_to_end/venv/Library/lib
+includedir=E:/Samay/MachineLearningProject/end_to_end/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
